@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Content from "../content/overview.md";
+
+const title = "About — Ikue Hirata";
+const description = "EN→JA videogame translator with a systems & engineering mindset. Focus on sustainable quality under real production constraints.";
+---
+
+<BaseLayout title={title} description={description}>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="site-title">Hi! I'm Ikue Hirata | 平田郁恵</h1>
+    <p class="tagline">
+      EN -> JA Videogame Localization Specialist <wbr>with a Systems-Oriented Engineering Mindset
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <img src="/assets/photo_horizontal_1600.JPG" alt="" />
+  </div>
+</section>
+
+  <Content />
+</BaseLayout>
