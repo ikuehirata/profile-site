@@ -28,7 +28,7 @@
 
 ## Education & Background
 
-- Ph.D. in Electronic Engineering
+- Ph.D. in Electronic Engineering, the University of Tokyo
 
 
 ## Contact
